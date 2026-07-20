@@ -1,0 +1,72 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.jit.io/reference/credentials
+docs: https://docs.jit.io/docs/managing-users
+discovery: https://auth.jit.io/.well-known/openid-configuration
+summary:
+  types:
+  - oauth2
+  - http
+  http_schemes:
+  - bearer
+  oauth2_flows:
+  - clientCredentials
+  - authorizationCode
+  - deviceCode
+  - tokenExchange
+  - refreshToken
+  bearer_format: JWT
+schemes:
+- name: BearerJWT
+  type: http
+  scheme: bearer
+  bearerFormat: JWT
+  description: >-
+    API requests to api.jit.io are authorized with a Bearer JWT. Clients obtain the
+    JWT by POSTing their Client ID and Secret to the credentials endpoint
+    (https://api.jit.io/authentication/login). The issued token is valid for 24
+    hours, after which the client must re-authenticate.
+  sources:
+  - https://docs.jit.io/reference/credentials
+- name: OAuth2
+  type: oauth2
+  description: >-
+    Jit runs a full OAuth2 / OpenID Connect authorization server at auth.jit.io.
+    Machine-to-machine API access uses the client_credentials grant (Client ID +
+    Secret issued under Settings -> Users & Permissions -> API Tokens). Interactive
+    and device flows are also supported.
+  authorization_server: https://auth.jit.io
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.jit.io/oauth/token
+  - flow: authorizationCode
+    authorizationUrl: https://auth.jit.io/oauth/authorize
+    tokenUrl: https://auth.jit.io/oauth/token
+    pkce: S256
+  - flow: deviceCode
+    deviceAuthorizationUrl: https://auth.jit.io/oauth/device/authorize
+    tokenUrl: https://auth.jit.io/oauth/token
+  grant_types_supported:
+  - authorization_code
+  - refresh_token
+  - client_credentials
+  - urn:ietf:params:oauth:grant-type:token-exchange
+  - urn:ietf:params:oauth:grant-type:device_code
+  token_endpoint_auth_methods:
+  - client_secret_basic
+  - client_secret_post
+  id_token_signing_alg:
+  - RS256
+  - ES256
+  registration_endpoint: https://auth.jit.io/oauth/dcr/register
+  sources:
+  - https://auth.jit.io/.well-known/openid-configuration
+roles:
+  description: >-
+    API tokens are created against a user role; the token inherits that role's
+    permissions.
+  values:
+  - Admin
+  - Engineering Manager
+  - Member
+  - Developer
