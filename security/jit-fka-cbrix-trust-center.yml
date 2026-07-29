@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.jit.io/legal/terms
+url: https://trust.jit.io/
+certifications:
+- SOC 2 Type 2
+evidence:
+- source: https://www.jit.io/legal/terms
+  keywords:
+  - soc 2 type 2 badge
+  - trust portal
+- source: https://www.jit.io/legal/terms/information-security-policy
+  keywords:
+  - information security policy
+notes: >-
+  Jit links a Trust Portal at trust.jit.io from its legal footer, offering "SOC 2
+  and other compliance reports, DPA, Security and Architecture documents" on request
+  (sales-gated, returns 403 to anonymous fetch). A SOC 2 Type 2 badge is displayed
+  on jit.io. Jit also publishes an Information Security Policy, AI Principles, and a
+  Sub-Processors list under /legal/terms.
+related_pages:
+- https://www.jit.io/legal/terms/information-security-policy
+- https://www.jit.io/legal/terms/sub-processors
+- https://www.jit.io/legal/terms/ai-principles

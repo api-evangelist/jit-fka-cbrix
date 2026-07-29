@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.jit.io/reference
+versioning:
+  scheme: unversioned-host
+  notes: >-
+    The API is served from a single host (api.jit.io) without a version prefix in
+    the base path. Individual resources are addressed under product paths such as
+    /findings, /teams, /plans, /artifacts, and /workflows.
+authentication:
+  token_lifetime: 24h
+  notes: >-
+    API JWTs issued from client credentials remain valid for 24 hours; clients must
+    re-authenticate at the credentials endpoint after expiry.
+status_page: https://status.jit.io/
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No public deprecation policy or RFC 8594 Sunset/Deprecation header support was found.
+sla:
+  url: null
+data_retention:
+  billable_minutes: >-
+    Billable-minutes statistics are available from 2024-08-18 and up to one year in
+    the past.

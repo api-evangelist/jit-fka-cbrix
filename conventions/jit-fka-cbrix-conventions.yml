@@ -1,0 +1,45 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.jit.io/reference
+base_url: https://api.jit.io
+authentication:
+  style: Bearer JWT
+  detail: >-
+    Authorization: Bearer <JWT>. JWTs are minted from Client ID + Secret via the
+    credentials endpoint and are valid for 24 hours. See
+    authentication/jit-fka-cbrix-authentication.yml.
+authorization:
+  model: fine-grained jit.* permissions per operation
+  detail: See scopes/jit-fka-cbrix-scopes.yml.
+pagination:
+  supported: true
+  detail: >-
+    List endpoints (teams, child teams, team members, findings, workflow runs,
+    policy rules) support pagination. Exact parameter/response field names are not
+    published outside the interactive reference.
+content_type: application/json
+idempotency:
+  supported: false
+  detail: >-
+    No idempotency-key header or idempotent-write contract is documented. Some write
+    operations use optimistic concurrency instead - e.g. the configuration-file and
+    integration-file PUT operations require a file_sha that must match the last read,
+    failing the update if the file changed.
+concurrency_control:
+  style: optimistic (file_sha / conditional update)
+  detail: >-
+    Update configuration file and update integration file require a file_sha
+    matching the current server state; a stale sha fails the write to prevent
+    overwriting concurrent changes.
+async_operations:
+  detail: >-
+    CSV finding reports are generated asynchronously - the API returns a presigned
+    URL immediately and notifies the UI via websocket when the report is ready.
+error_envelope:
+  detail: JSON error bodies; RFC 9457 problem+json not confirmed.
+rate_limiting:
+  detail: No public rate-limit signaling documented.
+cross_links:
+  authentication: authentication/jit-fka-cbrix-authentication.yml
+  scopes: scopes/jit-fka-cbrix-scopes.yml
+  lifecycle: lifecycle/jit-fka-cbrix-lifecycle.yml

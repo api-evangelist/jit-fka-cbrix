@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of jit.io hosts /.well-known/ surface
+hosts:
+- host: https://auth.jit.io
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: jit-fka-cbrix-openid-configuration.json
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: jit-fka-cbrix-oauth-authorization-server.json
+  - path: /.well-known/jwks.json
+    status: 200
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://api.jit.io
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 403
+- host: https://www.jit.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+- host: https://docs.jit.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: >-
+  Jit's OAuth2/OIDC authorization server is published at auth.jit.io with a live
+  OpenID Connect discovery document and RFC 8414 authorization-server metadata. No
+  security.txt (RFC 9116), api-catalog, or ai-plugin.json is published on any host.

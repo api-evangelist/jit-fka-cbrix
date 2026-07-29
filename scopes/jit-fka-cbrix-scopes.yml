@@ -1,0 +1,57 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.jit.io/reference
+docs: https://docs.jit.io/reference
+discovery: https://auth.jit.io/.well-known/openid-configuration
+schemes:
+- name: OAuth2
+  authorization_server: https://auth.jit.io
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.jit.io/oauth/token
+  - flow: authorizationCode
+    authorizationUrl: https://auth.jit.io/oauth/authorize
+    tokenUrl: https://auth.jit.io/oauth/token
+oidc_scopes:
+- scope: openid
+  description: OpenID Connect authentication.
+- scope: profile
+  description: Access to the authenticated user's profile claims.
+- scope: email
+  description: Access to the authenticated user's email address.
+permissions:
+  description: >-
+    Jit API operations are gated by fine-grained jit.* permissions carried by the
+    JWT (derived from the token's role). Each API reference operation documents the
+    permission it requires.
+  scopes:
+  - scope: jit.artifacts.read
+    description: Read and download artifacts (SBOM, Wiz issues, ZAP scanned URLs).
+  - scope: jit.generalMetrics.read
+    description: Read general metrics such as SCM billable-minutes statistics.
+  - scope: jit.findings.read
+    description: List and read security findings and generate CSV reports.
+  - scope: jit.findings.write
+    description: Act on findings, e.g. dispatch an Open Fix Pull Request event.
+  - scope: jit.preferences.read
+    description: Read tenant/user preferences and the Security-as-Code configuration file.
+  - scope: jit.preferences.write
+    description: Update the Security-as-Code configuration file.
+  - scope: jit.integrations.read
+    description: Read the integration file / third-party integration configuration.
+  - scope: jit.integrations.write
+    description: Update the integration file / third-party integration configuration.
+  - scope: jit.teams.read
+    description: List teams, members, and child teams.
+  - scope: jit.teams.write
+    description: Create, update, delete, and import teams.
+  - scope: jit.trigger.write
+    description: Trigger synchronous executions (controls CLI / local environments).
+  - scope: jit.policies.read
+    description: Read policy rules, templates, and entity types.
+  - scope: jit.policies.write
+    description: Create, update, and delete policy rules (Premium).
+  - scope: jit.workflows.read
+    description: Fetch workflows, step options, and workflow runs (Premium).
+  - scope: jit.workflows.write
+    description: Create, update, and delete workflows (Premium).

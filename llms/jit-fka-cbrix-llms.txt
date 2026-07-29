@@ -1,0 +1,191 @@
+# Jit - Product-Security-as-a-Service - Documentation Documentation
+
+> Jit is a Product-Security-as-a-Service platform for modern engineering teams with a DevOps mentality. Are you using security tools such as Semgrep, Prowler, KICS, Semgrep, OWASP ZAP, NPM-Audit, Ttivy or others as part of your DevSecOps Toolchain? How do you monitor or get reports from each one of those security tools? Do you implement and configure them manually across all your resources? Jit is an open DevSecOps Orchestration Platform; get your first scan in 5 minutes; you’ll enjoy a fix-focused, native developer experience and comprehensive AppSec visibility. One place for all your security vulnerabilities, measurements, reports, prioritized actions, and more. Start Free: https://www.jit.io/
+
+## Guides
+- [Jit Docs Home](https://docs.jit.io/docs/about-jit.md)
+- [FAQ](https://docs.jit.io/docs/faq.md)
+- [Onboarding Overview](https://docs.jit.io/docs/welcome-to-onboarding.md)
+- [Connect Jit with your GitHub Account](https://docs.jit.io/docs/integrating-with-github.md)
+- [Self-hosted GitHub Actions Set Up](https://docs.jit.io/docs/jit-on-github-self-hosted-runners.md)
+- [Connect Jit with your GitLab account](https://docs.jit.io/docs/connect-jit-with-your-gitlab-account.md)
+- [GitLab integration method - Fast](https://docs.jit.io/docs/gitlab-integration-method-fast.md)
+- [GitLab integration method - Fastest](https://docs.jit.io/docs/gitlab-integration-method-fastest.md)
+- [Configuring Self-Hosted Runners for Jit](https://docs.jit.io/docs/configuring-self-hosted-runners-for-jit.md)
+- [Troubleshooting](https://docs.jit.io/docs/troubleshooting.md)
+- [Connect Jit with your Bitbucket Account](https://docs.jit.io/docs/connect-jit-with-your-bitbucket-account.md)
+- [Connect Jit with your Azure DevOps Account](https://docs.jit.io/docs/connect-jit-with-your-azure-dev-ops-account.md)
+- [Explore Jit Features](https://docs.jit.io/docs/explore-jit.md)
+- [Agents Overview](https://docs.jit.io/docs/agents-overview.md)
+- [Agentic Tools](https://docs.jit.io/docs/agentic-tools.md)
+- [Creating Agents](https://docs.jit.io/docs/creating-agents.md)
+- [Managing Agents](https://docs.jit.io/docs/managing-agents.md)
+- [Using Agentic Chat](https://docs.jit.io/docs/using-agentic-chat.md)
+- [Ask AI (in Findings)](https://docs.jit.io/docs/ask-ai-in-findings.md)
+- [Integrations Overview](https://docs.jit.io/docs/integrations-page.md)
+- [Integrating with Third-Party Products and Services](https://docs.jit.io/docs/integrating-with-third-party-products-and-services.md)
+- [Slack Integration](https://docs.jit.io/docs/integrating-with-slack.md): Integrating with Slack
+- [Microsoft Teams Integration](https://docs.jit.io/docs/microsoft-teams-integration.md)
+- [Cloud Provider Integrations](https://docs.jit.io/docs/cloud-provider-integrations.md)
+- [AWS Integration](https://docs.jit.io/docs/integrating-with-aws.md): Integrating with AWS
+- [GCP Integration](https://docs.jit.io/docs/integrating-with-gcp.md): Integrating with GCP
+- [Azure Integration](https://docs.jit.io/docs/integrating-with-azure.md): Integrating with Azure
+- [Ticketing Management Systems (TMS) Integrations](https://docs.jit.io/docs/integrating-with-tms.md): Integrating with Jira, Monday.com, Linear or Shortcut
+- [Jira Integration](https://docs.jit.io/docs/integrating-with-jira.md): Integrating with Jira
+- [Linear Integration](https://docs.jit.io/docs/integrating-with-linear.md): Integrating with Linear
+- [Shortcut Integration](https://docs.jit.io/docs/integrating-with-shortcut.md): Integrating with Shortcut
+- [Monday.com Integration](https://docs.jit.io/docs/integrating-with-monday.md): Integrating with monday.com
+- [Azure Devops Integration](https://docs.jit.io/docs/azure-devops-integration.md): Integrating with Azure Devops
+- [CNAPP, AppSec, SIEM & more](https://docs.jit.io/docs/proprietary-security-tools-scanners-siems-more.md)
+- [AWS Security Hub Integration](https://docs.jit.io/docs/import-aws-security-hub-findings.md)
+- [Wiz Integration](https://docs.jit.io/docs/wiz-integration.md)
+- [Semgrep Pro Tier Integration](https://docs.jit.io/docs/integrating-with-semgrep-pro.md): Integrating with Semgrep Pro Tier
+- [Legitify Integration](https://docs.jit.io/docs/integrating-with-legitify.md): Integrating with Legitify
+- [Drata Integration](https://docs.jit.io/docs/drata-integrartion.md)
+- [Splunk Integration](https://docs.jit.io/docs/splunk.md)
+- [Google SecOps (Chronicle) Integration](https://docs.jit.io/docs/google-secops-integration.md)
+- [Cyera Integration](https://docs.jit.io/docs/cyera-integration.md)
+- [Checkmarx Integration](https://docs.jit.io/docs/checkmarx-integration.md)
+- [Orca Integration](https://docs.jit.io/docs/orca-integration.md)
+- [Bright Integration](https://docs.jit.io/docs/bright-integration.md)
+- [Invicti Integration](https://docs.jit.io/docs/invicti-integration.md)
+- [StackHawk Integration](https://docs.jit.io/docs/stackhawk-integration.md)
+- [Traceable Integration](https://docs.jit.io/docs/traceable-integration.md)
+- [Upwind Security Integration](https://docs.jit.io/docs/upwind-integration.md)
+- [Drata API Integration](https://docs.jit.io/docs/drata-api-integration.md)
+- [Vanta Integration](https://docs.jit.io/docs/vanta-integration.md)
+- [CrowdStrike Integration](https://docs.jit.io/docs/crowdstrike-integration.md)
+- [Sweet Security Integration](https://docs.jit.io/docs/sweet-security-integration.md)
+- [NPM registry Integration](https://docs.jit.io/docs/integrating-with-npm-registry.md): Integrating with npm registry
+- [Jit Kubernetes Agent](https://docs.jit.io/docs/k8s-agent.md)
+- [Jit Scanner Summary](https://docs.jit.io/docs/security-tools.md)
+- [Code Security Scanners](https://docs.jit.io/docs/application-security-scanners.md)
+- [Scanners Rule Configuration](https://docs.jit.io/docs/scanners-rule-configuration.md)
+- [Static Application Security Testing (SAST)](https://docs.jit.io/docs/scan-code-for-vulnerabilities.md)
+- [Software Composition Analysis (SCA)](https://docs.jit.io/docs/scan-code-dependencies-for-vulnerabilities.md)
+- [Secrets Detection](https://docs.jit.io/docs/scan-code-for-hard-coded-secrets.md)
+- [Software Bill of Materials (SBOM)](https://docs.jit.io/docs/sbom.md)
+- [Open Source License Detection](https://docs.jit.io/docs/scan-for-denied-licenses.md)
+- [Cloud security: IaC and runtime scanning](https://docs.jit.io/docs/iac-security-scanners.md)
+- [Infrastructure-as-Code Security Scanning](https://docs.jit.io/docs/scan-iac-for-static-misconfigurations.md)
+- [Kubernetes Security Scanning](https://docs.jit.io/docs/scan-kubernetes-iac-for-misconfigurations.md)
+- [Cloud Security Posture Management (CSPM)](https://docs.jit.io/docs/scan-runtime-infra.md)
+- [Verify that AWS Users Have Enabled MFA](https://docs.jit.io/docs/require-mfa-for-cloud-providers.md)
+- [Checkov IaC Misconfiguration Detection](https://docs.jit.io/docs/checkov-iac-misconfiguration-detection.md)
+- [Container Security Scanners](https://docs.jit.io/docs/container-security-scanners.md)
+- [Dockerfile Security Scanning](https://docs.jit.io/docs/scan-dockerfiles.md)
+- [Container On-Build Scanning](https://docs.jit.io/docs/container-on-build-scanning.md)
+- [Web App and API Scanners](https://docs.jit.io/docs/web-app-and-api-scanners.md)
+- [Scan your Web Application for Vulnerabilities (DAST)](https://docs.jit.io/docs/run-a-web-application-scanner.md)
+- [Configuring Vulnerability Scans for Web Applications](https://docs.jit.io/docs/scan-your-web-application-for-vulnerabilities-dast-copy.md)
+- [Scan Your API for Vulnerabilities (DAST)](https://docs.jit.io/docs/ensure-your-api-is-secure.md)
+- [Configuring Vulnerability Scans for APIs](https://docs.jit.io/docs/dynamic-application-security-testing-dast-for-apis-copy.md)
+- [ZAP Rules for Detecting Vulnerabilities](https://docs.jit.io/docs/vulnerabilities-detected-using-zap.md)
+- [Run ZAP-Based Security Controls on a GitHub-Hosted Runner](https://docs.jit.io/docs/run-zap-on-github-actions.md)
+- [CI/CD Pipeline Security](https://docs.jit.io/docs/cicd-pipeline-security.md)
+- [CI/CD Security Checks](https://docs.jit.io/docs/github-misconfiguration-detection.md)
+- [GitHub Branch Protection Verification](https://docs.jit.io/docs/require-branch-protection-for-scm.md)
+- [Verify that MFA for Your GitHub Organization is Enabled](https://docs.jit.io/docs/require-mfa-for-scm.md)
+- [Manual Branch Scanning](https://docs.jit.io/docs/manual-branch-scan.md)
+- [Test Jit's Detection: Code Samples and Targets](https://docs.jit.io/docs/code-samples.md)
+- [Risk Mitigation Overview](https://docs.jit.io/docs/mitigating-risk.md)
+- [Vulnerability management](https://docs.jit.io/docs/jit-findings.md)
+- [Contextual prioritization (Context Engine)](https://docs.jit.io/docs/contextual-prioritization-context-engine.md)
+- [Bulk Remediation](https://docs.jit.io/docs/bulk-remediation.md)
+- [Managing Resources in My Environment](https://docs.jit.io/docs/managing-resources-apps-and-repositories.md)
+- [Reporting Overview](https://docs.jit.io/docs/overview.md)
+- [Pull Requests](https://docs.jit.io/docs/pull-requests-page.md)
+- [Security Impact](https://docs.jit.io/docs/security-impact.md)
+- [Dev UX in Source Code Management](https://docs.jit.io/docs/dev-getting-started.md): Change-based security testing and auto-remediation in Pull-Requests
+- [Change-Based Security Tests in Pull-Requests](https://docs.jit.io/docs/ongoing-monitoring-of-pull-requests.md)
+- [Automated Remediation](https://docs.jit.io/docs/automated-remediation.md)
+- [Jit IDE Extension](https://docs.jit.io/docs/jit-ide-extension-for-visual-studio.md)
+- [Dev UX in Jit: Team Analytics](https://docs.jit.io/docs/teams.md)
+- [Jit Teams Setup](https://docs.jit.io/docs/jit-teams-setup.md)
+- [Jit's Support Regions](https://docs.jit.io/docs/regional-jit.md)
+- [Users and Permissions](https://docs.jit.io/docs/managing-users.md)
+- [Audit logs](https://docs.jit.io/docs/audit-logs.md)
+- [SSO](https://docs.jit.io/docs/sso.md)
+- [Pipelines](https://docs.jit.io/docs/pipelines-page.md)
+- [Manage Resources](https://docs.jit.io/docs/manage-resources.md)
+- [Security Plans](https://docs.jit.io/docs/security-plans-1.md)
+- [Security Plans Introduction](https://docs.jit.io/docs/introduction-2.md)
+- [Specific Plan Page](https://docs.jit.io/docs/my-plan-tab.md)
+- [OWASP Top 10 Plan](https://docs.jit.io/docs/owasp-top-10-plan.md)
+- [Different DAST plans](https://docs.jit.io/docs/different-dast-plans.md)
+- [Security Plan Structure](https://docs.jit.io/docs/security-plan-structure-and-components.md)
+- [Plan Resources Exclusion](https://docs.jit.io/docs/plan-resources-exclusion.md)
+- [Plan Workflow Modifications](https://docs.jit.io/docs/plan-modifications.md)
+- [Override workflows](https://docs.jit.io/docs/override-workflows.md)
+- [Product Security Plans](https://docs.jit.io/docs/security-plans.md)
+- [Jit MVS for AppSec Plan](https://docs.jit.io/docs/jit-mvs-for-appsec-plan.md)
+- [AWS Foundational Technical Review (FTR)](https://docs.jit.io/docs/aws-foundational-technical-review-ftr.md)
+- [GitHub Security Plan](https://docs.jit.io/docs/github-security-plan.md)
+- [SOC2 by Drata](https://docs.jit.io/docs/soc2-by-drata.md)
+- [Jit Max Security Plan](https://docs.jit.io/docs/jit-max-security-plan.md)
+- [Advanced Configuration](https://docs.jit.io/docs/advanced-configuration.md)
+- [Deployment-Based Scanning](https://docs.jit.io/docs/deployment-based-scanning.md)
+- [Secrets management](https://docs.jit.io/docs/secrets.md)
+- [Security as Code Configuration](https://docs.jit.io/docs/security-as-code-configuration.md)
+- [Monorepo Support](https://docs.jit.io/docs/monorepo-support.md)
+- [Files and Folder Exclusions](https://docs.jit.io/docs/folder-exclusion.md)
+- [Concealed Public Repos](https://docs.jit.io/docs/discreet-comments-for-public-repos.md)
+- [Jit Scripts for extended usability](https://docs.jit.io/docs/jit-cli-scripts.md)
+- [Jit Teams sync](https://docs.jit.io/docs/jit-teams-sync.md)
+- [Plan Workflow Modifications](https://docs.jit.io/docs/plan-workflow-modifications.md)
+- [Policies](https://docs.jit.io/docs/policies.md)
+- [SLA Enforcement on Pull Requests](https://docs.jit.io/docs/sla-enforcement-on-pull-requests.md)
+- [Common Troubleshooting](https://docs.jit.io/docs/common-troubleshooting.md)
+- [GitHub Troubleshooting](https://docs.jit.io/docs/github-troubleshooting.md)
+- [Configuring Branch Protection to work with Jit](https://docs.jit.io/docs/configure-jit-branch-protection.md): How to troubleshoot Branch Protection
+- [GitHub Actions are disabled](https://docs.jit.io/docs/github-actions-are-disabled.md): Configure GitHub Actions to be enabled
+- [Add minutes to GitHub Actions](https://docs.jit.io/docs/add-minutes-to-github-actions.md)
+- [GitHub has an Outage](https://docs.jit.io/docs/github-outage.md)
+- [Gitlab Troubleshooting](https://docs.jit.io/docs/gitlab-troubleshooting.md)
+- [GitLab Runners are disabled](https://docs.jit.io/docs/gitlab-runners-are-disabled.md)
+- [AWS Integration Troubleshooting](https://docs.jit.io/docs/troubleshooting-aws-integration.md)
+- [DAST Troubleshooting](https://docs.jit.io/docs/dast-troubleshooting.md)
+- [Retrieving Authentication Information With Browser Developer Tools](https://docs.jit.io/docs/retrieving-information-with-browser-developer-tools.md)
+
+## API Reference
+- [Return all artifacts](https://docs.jit.io/reference/artifacts-1.md): Returns artifacts that can be downloaded.  Jit supports the following artifact types: 'SBOM', 'WIZ_ISSUES', 'ZAP_SCANNED_URLS_web' and 'ZAP_SCANNED_URLS_api'.  Some artifacts can only be downloaded by Premium users. To download, upgrade to the Premium users pricing plan.  **Requires the following permission:** `jit.artifacts.read`
+- [Returns an artifact](https://docs.jit.io/reference/artifact.md): Returns an artifact that can be downloaded.  Jit supports the following artifact types: 'SBOM', 'WIZ_ISSUES', 'ZAP_SCANNED_URLS_web' and 'ZAP_SCANNED_URLS_api'.  Some artifacts can only be downloaded by Premium users. To download, upgrade to the Premium users pricing plan.  **Requires the following permission:** `jit.artifacts.read`
+- [Exports an artifact](https://docs.jit.io/reference/artifact-3839eb9c-b7a3-42f4-9376-b3dde12c622d.md): Exports an artifact.  Jit supports the following artifact types: 'SBOM', 'WIZ_ISSUES', 'ZAP_SCANNED_URLS_web' and 'ZAP_SCANNED_URLS_api'.  **Important**: Use the following `/artifacts/<artifact_id>` endpoint to check you can export the artifact. A Forbidden response indicates you don’t have permission.  **Requires the following permission:** `jit.artifacts.read`
+- [Authenticate your client credentials](https://docs.jit.io/reference/credentials.md): This endpoint validates the Client ID and secret and then issues a temporary JWT for the API.  To obtain your client credentials, go to `Settings -> Users & Permissions -> API Tokens` in the JIT platform.  **NOTE**: The provided token remains valid for 24 hours. After this period, reauthenticate it via this endpoint.  For more information, refer to [Generating API Tokens](https://docs.jit.io/docs/managing-users#generating-api-tokens)
+- [Retrieve SCM Billable Minutes Statistics.](https://docs.jit.io/reference/billing-1.md): Fetch detailed statistics on SCM **billable** minutes consumed by Jit scanners.  This endpoint allows you to access the billable minutes used by various scanning jobs. You can group the results by different categories such as job names, developers, or assets.  **Important:** Data availability starts from **August 18, 2024**, and is available up to **1 year** in the past, even if the provided start date is more than a year ago.  - For `Github` - the billable minutes are always rounded up to the nearest minute (e.g. 20 seconds scan will be considered as 1 minute).  - For `Gitlab` - the billable minutes are calculated based on the actual time spent on the scan.  When grouping by developers (`by_developer=true`), you can also count the number of unique developers who have interacted with the platform through Pull Requests (PRs) or Merge Requests (MRs).  **Requires the following permission:** `jit.generalMetrics.read`
+- [Get a list of findings](https://docs.jit.io/reference/findings-bce0354d-f836-4173-8a7b-223b20f7d2b9.md): Get a list of findings with optional filtering and sorting. This endpoint supports retrieving findings as a list or generating a URL for CSV export  **Requires the following permission:** `jit.findings.read`
+- [Generate CSV report asynchronously](https://docs.jit.io/reference/async.md): Generate a CSV report of findings asynchronously. Returns a presigned URL immediately and processes the report in the background. The UI will be notified via websocket when the report is ready.  **Requires the following permission:** `jit.findings.read`
+- [Get configuration file](https://docs.jit.io/reference/tenant.md): Returns the configuration file content.  The configuration file content is a valid YAML string, representing a dictionary object. More information on the configuration file content can be found in the [Security As Code Documentation](https://docs.jit.io/docs/security-as-code-configuration).   **Requires the following permission:** `jit.preferences.read`
+- [Update configuration file](https://docs.jit.io/reference/tenant-b178957f-7ef0-4ef7-b0df-9a9ccc2d41a2.md): Updates the configuration file content. The configuration file content must be a valid YAML string, representing a dictionary object.  The `file_sha` parameter is required to ensure the file being updated has not changed since the last read operation. If the file has changed, the update will fail to prevent overwriting changes. To forcefully update the configuration file content, you may provide a commit hash in the `file_sha` parameter.  **Important**: This API overwrites the entire configuration. Please call the `Get configuration file` API to retrieve the current configuration content first, and append the new configuration to the existing content. For details on the structure of specific configurations, please refer to the [Security As Code Documentation](https://docs.jit.io/docs/security-as-code-configuration).  **Usage Example**  1. Retrieve the current configuration content using the get configuration API:  ``` curl -X GET \   –url https://api.jit.io/plans/configuration-file \   –header ‘accept: application/json’ \   –header ‘Authorization: Bearer ’ ```  A potential response might be:  ``` {   "content": {     "folders": [       {         "exclude": [           "/tests/*"         ],         "path": "/"       }     ]   },   "sha": "c548d1f6410fa66f1222678eef84a26dd042fc0f" } ```  2. Update the configuration file content:  For instance, to add a new exclude folder to the current content, append it and use the following curl command:  ``` curl -X PUT \   –url https://api.jit.io/plans/configuration-file \   –header 'accept: application/json' \   –header 'Authorization: Bearer ' \   –data '{   "payload": {     "folders": [       {         "exclude": [           "/tests/*",           "/cypress/*"         ],         "path": "/"       }     ]   },   "file_sha": "c548d1f6410fa66f1222678eef84a26dd042fc0f" }' ```   **Requires the following permission:** `jit.preferences.write`
+- [Get integration file](https://docs.jit.io/reference/tenant-2bb89bbd-5733-4c38-9f3a-6220c39362c6.md): Returns the integration file content.  The integration file content is a valid YAML string, representing a dictionary object. More information on integration file content can be found in the [integration documentation](https://docs.jit.io/docs/integrating-with-third-party-products-and-services).   **Requires the following permission:** `jit.integrations.read`
+- [Update integration file](https://docs.jit.io/reference/tenant-ae2d2602-dd61-4977-8d2b-714c5e8959fa.md): Updates the integration file content. The integration file content must be a valid YAML string, structured as a dictionary.  The `file_sha` parameter is only applicable for tenants with an active GitHub installation. For other tenants, this parameter should not be provided. The `file_sha` represents the SHA of the file being updated. If the file has changed since the last read operation, the update will fail to prevent overwriting changes. To forcefully update the integration file content, omit the `file_sha` parameter.  **Important**: This API overwrites the entire integration configuration. Please call the `Get integration file` API to retrieve the current configuration content first, and append the new integration configuration to the existing content. For details on the structure of specific integrations, please refer to the [integration documentation](https://docs.jit.io/docs/integrating-with-third-party-products-and-services).  **Usage Example**  1. Retrieve the current configuration content using the get integrations API:  ``` curl -X GET \   --url https://api.jit.io/plans/integration-file \   --header 'accept: application/json' \   --header 'Authorization: Bearer <JWT>' ```  A potential response might be:  ``` {   "content": {     "aws": [       {         "account_id": "123456789",         "regions": ["us-east-1"],         "type": "account"       }     ]   },   "raw_content": "aws: - account_id: '123456789'   regions:   - us-east-1   type: account",   "file_sha": "1234567890abcdef1234567890abcdef12345678",   "status": "valid",   "vendor_response": {...} } ```  2. Update the integration file content:  For instance, to add the Drata integration to the current content, append it as follows:  ``` {   "aws": [     {       "account_id": "123456789",       "regions": ["us-east-1"],       "type": "account"     }   ],   "drata": {     "user_email": "test@example.com",     "workspace": "production"   } } ```  Use the following curl command to update the integration file content:  ``` curl -X PUT \   --url https://api.jit.io/plans/integration-file \   --header 'accept: application/json' \   --header 'Authorization Bearer <JWT>' \   --data '{     "content": {     "aws": [     {         "account_id": "954435684707",         "regions": ["us-east-1"],         "type": "account"     }     ],     "drata": {         "user_email": "test@example.com",         "workspace": "production"         }     } }' ```   **Requires the following permission:** `jit.integrations.write`
+- [Return all plans](https://docs.jit.io/reference/tenant-6f7075bd-d371-4f23-b1b5-b0398381697e.md): Returns all plans together with Plan Item slugs.
+- [Update a plan](https://docs.jit.io/reference/plan.md): Update a plan by specifying its slug.  **Note**: In the absence of an existing plan, a new one is created.  Use the **/plans** endpoint to retrieve all plans along with Plan Item slugs that the authenticated user has access to.
+- [Return a plan](https://docs.jit.io/reference/details.md): Return a plan based on its Plan slug.  Use the **/plans** endpoint to retrieve all plans along with Plan Item slugs that the authenticated user has access to.
+- [Return a plan item](https://docs.jit.io/reference/details-3530bc55-61d1-4a0f-94af-062f321c3536.md): Return a plan item based on its Plan Item slug.  Use the **/plans** endpoint to retrieve all plans along with Plan Item slugs that the authenticated user has access to.
+- [Get images](https://docs.jit.io/reference/images.md): Retrieve all available images
+- [Delete a team](https://docs.jit.io/reference/team.md): Delete a team by specifying its Team ID. This action is irreversible.  **Important**: Only manually created teams can be deleted.  Use the **/teams** endpoint to retrieve all teams the authenticated user has access to.
+- [Update a team](https://docs.jit.io/reference/team-2dae8cbe-7724-48cc-b0d9-325aceb959ba.md): Update the name and/or description of a team by specifying its team ID.  **Note**: Changes to the fields listed below are only applicable to teams that have been created manually: `name`, `description`, `project`, `members`, `assets`  Use the **/teams** endpoint to retrieve all teams the authenticated user has access to.  **Requires the following permission:** `jit.teams.write`
+- [Return a team](https://docs.jit.io/reference/team-9a89e3d1-3312-4e25-8bf2-c4e8049c6b90.md): Return a team based on its Team ID.  Use the **/teams** endpoint to retrieve all teams the authenticated user has access to.  **Requires the following permission:** `jit.teams.read`
+- [Return all teams](https://docs.jit.io/reference/teams-2.md): Returns all teams together with Parent and Child IDs. **Optional**: return team members as additional metadata.  **Requires the following permission:** `jit.teams.read`
+- [Create a new team](https://docs.jit.io/reference/team-a1fcff4d-0046-43bd-87db-51dd077cbe0d.md): Creating a new team with an optional parent Team ID for hierarchical structuring.  By default the team is initialized with a `manual` source.  Use the **/teams** endpoint to retrieve all teams the authenticated user has access to.  **Requires the following permission:** `jit.teams.write`
+- [Return team members](https://docs.jit.io/reference/members.md): Retrieve a paginated list of team members by specifying a Team ID.  Use the **/teams** endpoint to retrieve all teams the authenticated user has access to.  **Requires the following permission:** `jit.teams.read`
+- [Return all child teams](https://docs.jit.io/reference/children.md): Get a list of child teams using the Team ID. This API supports pagination.  Use the **/teams** endpoint to retrieve all teams the authenticated user has access to.  **Requires the following permission:** `jit.teams.read`
+- [Import teams](https://docs.jit.io/reference/teams-709c15a0-d3bf-4aae-8585-779edbe0a1a0.md): Allows manual management of your teams by importing data that contains team information, rather than syncing with external sources like GitHub.  This operation performs the following actions:  1. Deletes all existing teams and their associated resources and members. 2. Stops the auto sync from external sources like `GitHub`.  3. Creates teams along with their associated resources and members, or adds new members/resources to existing teams from the uploaded file.  **Requires the following permission:** `jit.teams.write`
+- [Return all preferences](https://docs.jit.io/reference/preferences.md): Retrieves system preferences at various scopes. Users can specify 'tenant' for organizational-level settings, 'user' for individual settings, or 'merged' for a combination.  **Requires the following permission:** `jit.preferences.read`
+- [Trigger plan item execution](https://docs.jit.io/reference/execution.md): Trigger executions for plan items and assets to run against  **NOTE** This endpoint only supports triggering executions for plan items.
+- [Trigger synchronous execution.](https://docs.jit.io/reference/event.md): Trigger synchronous execution for local environments. This endpoint can be used to trigger executions initiated by our controls CLI or by users in their local environments.  **Requires the following permission:** `jit.trigger.write`
+- [Trigger branch scan](https://docs.jit.io/reference/scan.md): Trigger a security scan for a specific branch of a repository. This allows scanning non-default branches on demand.
+- [Dispatches an Open Fix Pull Request event](https://docs.jit.io/reference/pr.md): Dispatches an Open Fix Pull Request event  **Requires the following permission:** `jit.findings.write`
+- [Return policy rules](https://docs.jit.io/reference/policy.md): Returns a paginated list of rules configured for a specific policy identified by its slug  **Requires the following permission:** `jit.policies.read`
+- [Delete policy rule](https://docs.jit.io/reference/rule.md): Delete a policy rule by ID  **Requires the following permission:** `jit.policies.write`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.
+- [List available policies templates](https://docs.jit.io/reference/template.md): Returns a list of all available policies with their metadata  **Requires the following permission:** `jit.policies.read`
+- [Get distinct entity types](https://docs.jit.io/reference/entities.md): Returns all unique entity types from policy rule conditions  **Requires the following permission:** `jit.policies.read`
+- [Update policy rule](https://docs.jit.io/reference/rule-8a0cc266-bcd6-4b4d-9bb8-cc0c0231583b.md): Update an existing policy rule's settings or enabled status  **Requires the following permission:** `jit.policies.write`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.
+- [Create policy rule](https://docs.jit.io/reference/rule-a7729799-8335-4b45-bddb-57f2ffdb4fdb.md): Create a new policy rule  **Requires the following permission:** `jit.policies.write`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.
+- [Fetch workflows](https://docs.jit.io/reference/workflows-2.md): Retrieve workflows associated with the tenant. This endpoint supports pagination.  **Requires the following permission:** `jit.workflows.read`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.
+- [Create a new workflow](https://docs.jit.io/reference/workflow.md): Create a new workflow  **Requires the following permission:** `jit.workflows.write`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.
+- [Fetch Steps Options](https://docs.jit.io/reference/options.md): Retrieve the available steps options for a workflow.  **Requires the following permission:** `jit.workflows.read`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.
+- [Get workflow runs](https://docs.jit.io/reference/runs.md): Retrieve workflow runs with pagination and the associated workflow  **Requires the following permission:** `jit.workflows.read`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.
+- [Update a workflow](https://docs.jit.io/reference/workflow-4f929f5d-ed2e-4d7e-ba4e-0acc59fe5b65.md): Update a workflow  **Requires the following permission:** `jit.workflows.write`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.
+- [Delete a workflow](https://docs.jit.io/reference/workflow-27dc6f3c-9364-45af-9415-6779b10cda75.md): Delete a workflow by given ID  **Requires the following permission:** `jit.workflows.write`  This feature is exclusive to premium users. To access it, upgrade to the Premium users pricing plan.

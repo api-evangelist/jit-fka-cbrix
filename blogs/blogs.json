@@ -1,0 +1,11 @@
+{
+  "repo": "jit-fka-cbrix",
+  "feeds": [
+    {
+      "source": "https://docs.jit.io/docs/welcome-to-onboarding",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

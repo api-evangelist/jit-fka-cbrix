@@ -1,0 +1,90 @@
+generated: '2026-07-19'
+method: derived
+status: candidate
+source: https://docs.jit.io/reference
+notes: >-
+  No official hosted/remote MCP server was found for Jit (Jit ships in-platform
+  "agentic tools" and an agentic chat, but no public Model Context Protocol server).
+  This is a CANDIDATE tool list derived from the documented Jit API reference
+  operations so an MCP server could be generated. Tools map to real, documented
+  operations; each requires the noted jit.* permission.
+server:
+  name: jit
+  transport: http
+  url: null
+tools:
+- name: list_findings
+  description: Get a list of security findings with filtering and sorting.
+  permission: jit.findings.read
+- name: export_findings_csv
+  description: Generate a CSV report of findings asynchronously (returns a presigned URL).
+  permission: jit.findings.read
+- name: open_fix_pull_request
+  description: Dispatch an Open Fix Pull Request event for a finding.
+  permission: jit.findings.write
+- name: list_artifacts
+  description: Return downloadable artifacts (SBOM, Wiz issues, ZAP scanned URLs).
+  permission: jit.artifacts.read
+- name: get_artifact
+  description: Return a single downloadable artifact.
+  permission: jit.artifacts.read
+- name: export_artifact
+  description: Export an artifact.
+  permission: jit.artifacts.read
+- name: get_billable_minutes
+  description: Retrieve SCM billable-minutes statistics.
+  permission: jit.generalMetrics.read
+- name: list_teams
+  description: Return all teams with parent and child IDs.
+  permission: jit.teams.read
+- name: create_team
+  description: Create a new team, optionally under a parent team.
+  permission: jit.teams.write
+- name: update_team
+  description: Update a team's name/description/members/assets.
+  permission: jit.teams.write
+- name: delete_team
+  description: Delete a manually created team.
+  permission: jit.teams.write
+- name: import_teams
+  description: Import teams in bulk and stop external auto-sync.
+  permission: jit.teams.write
+- name: get_configuration_file
+  description: Get the Security-as-Code configuration file content.
+  permission: jit.preferences.read
+- name: update_configuration_file
+  description: Update the Security-as-Code configuration file (requires file_sha).
+  permission: jit.preferences.write
+- name: get_integration_file
+  description: Get the third-party integration file content.
+  permission: jit.integrations.read
+- name: update_integration_file
+  description: Update the third-party integration file content.
+  permission: jit.integrations.write
+- name: list_plans
+  description: Return all plans with plan-item slugs.
+  permission: null
+- name: get_plan
+  description: Return a plan by slug.
+  permission: null
+- name: update_plan
+  description: Update (or create) a plan by slug.
+  permission: null
+- name: trigger_plan_item_execution
+  description: Trigger executions for plan items and assets.
+  permission: null
+- name: trigger_branch_scan
+  description: Trigger a security scan for a specific repository branch.
+  permission: null
+- name: list_policy_rules
+  description: Return policy rules for a policy slug.
+  permission: jit.policies.read
+- name: create_policy_rule
+  description: Create a new policy rule (Premium).
+  permission: jit.policies.write
+- name: list_workflows
+  description: Fetch workflows for the tenant (Premium).
+  permission: jit.workflows.read
+- name: create_workflow
+  description: Create a new workflow (Premium).
+  permission: jit.workflows.write
