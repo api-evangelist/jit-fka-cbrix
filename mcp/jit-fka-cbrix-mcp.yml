@@ -2,12 +2,10 @@ generated: '2026-07-19'
 method: derived
 status: candidate
 source: https://docs.jit.io/reference
-notes: >-
-  No official hosted/remote MCP server was found for Jit (Jit ships in-platform
-  "agentic tools" and an agentic chat, but no public Model Context Protocol server).
-  This is a CANDIDATE tool list derived from the documented Jit API reference
-  operations so an MCP server could be generated. Tools map to real, documented
-  operations; each requires the noted jit.* permission.
+notes: No official hosted/remote MCP server was found for Jit (Jit ships in-platform "agentic tools" and
+  an agentic chat, but no public Model Context Protocol server). This is a CANDIDATE tool list derived
+  from the documented Jit API reference operations so an MCP server could be generated. Tools map to real,
+  documented operations; each requires the noted jit.* permission.
 server:
   name: jit
   transport: http
@@ -88,3 +86,9 @@ tools:
 - name: create_workflow
   description: Create a new workflow (Premium).
   permission: jit.workflows.write
+deployment:
+  mode: none
+  verified: derived
+  tools: 25
+  checked: '2026-08-12'
+  source: catalog MCP census
