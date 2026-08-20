@@ -41,6 +41,14 @@ tags:
 - ASPM
 - Security
 - Vulnerability Management
+tags_raw:
+- Company
+- Cybersecurity
+- Application Security
+- DevSecOps
+- ASPM
+- Security
+- Vulnerability Management
 - API
 apis:
 - name: Jit API
