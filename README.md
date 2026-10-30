@@ -64,6 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jit (fka Cbrix) is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting the enrichment pipeline.
+Jit is an AI-powered Application Security Posture Management (ASPM) and DevSecOps orchestration platform for modern engineering teams. It unifies open-source and proprietary security scanners (Semgrep, Prowler, KICS, OWASP ZAP, Trivy, npm-audit, Wiz and more) behind one control plane, correlates their signals, prioritizes findings by policy, and drives fix-focused remediation directly in the developer workflow. Jit exposes a REST API at api.jit.io with OAuth2 client-credentials (JWT bearer) authentication and a fine-grained jit.* permission model covering findings, artifacts, teams, plans, policies, workflows, integrations, and scan execution. Formerly Cbrix, Jit is backed by Insight Partners and integrates across GitHub, GitLab, Bitbucket, Azure DevOps, AWS, GCP, and Azure.
 
-Backed by: insight-partners — https://www.jit.io/
+**Areas:** Company · Cybersecurity · Application Security · DevSecOps · ASPM · Security · Vulnerability Management
+
+## Jit (fka Cbrix) on APIs.io
+
+Everything profiled for Jit (fka Cbrix) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jit-fka-cbrix/](https://apis.io/providers/jit-fka-cbrix/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Jit API](https://apis.io/apis/jit-fka-cbrix/jit-api/) — Jit REST API for programmatic access to security findings, artifacts (SBOM, scan results), teams, plans, policies, workflows, integrations, billing metrics,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [jit](https://apis.io/servers/jit-fka-cbrix/jit/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jit Fka Cbrix Authentication](https://apis.io/security/jit-fka-cbrix/jit-fka-cbrix-authentication/)
+- [Jit Fka Cbrix Domain Security](https://apis.io/security/jit-fka-cbrix/jit-fka-cbrix-domain-security/)
+- [Jit Fka Cbrix Trust Center](https://apis.io/security/jit-fka-cbrix/jit-fka-cbrix-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Jit Fka Cbrix Scopes](https://apis.io/scopes/jit-fka-cbrix/jit-fka-cbrix-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.jit.io/)
+- [Documentation](https://docs.jit.io/docs/about-jit)
+- [Getting started](https://docs.jit.io/docs/welcome-to-onboarding)
+- [API reference](https://docs.jit.io/reference)
+- [Sign up](https://platform.jit.io/)
+- [Blog](https://www.jit.io/blog)
+- [Compliance](https://trust.jit.io/)
+- [Trust centre](https://trust.jit.io/)
+- [Terms of service](https://www.jit.io/legal/terms/terms-of-use)
+- [Privacy policy](https://www.jit.io/legal/terms/privacy-policy)
+- [GitHub](https://github.com/jitsecurity)
+- [Status](https://status.jit.io/)
+
+## API Evangelist rating
+
+**Kin Score 28.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 36.8 |
+
+**Agent readiness 15.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 39.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jit-fka-cbrix/](https://apis.io/providers/jit-fka-cbrix/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jit (fka Cbrix): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jit-fka-cbrix/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
